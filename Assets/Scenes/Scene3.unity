@@ -819,74 +819,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759764201}
   m_CullTransparentMesh: 1
---- !u!1001 &914657004
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6078373271498863297, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_Name
-      value: SceneChanger
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6078373271498863327, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
---- !u!114 &914657005 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6078373272880971895, guid: d8c90cd13a3a72144a448c703e552dc7, type: 3}
-  m_PrefabInstance: {fileID: 914657004}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d4bdd24de6c4344aa09ca58289d1459, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &915311932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,7 +1086,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1596511152
 GameObject:
@@ -1469,7 +1401,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1871826200
 GameObject:
@@ -1554,14 +1486,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 914657005}
-        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: FadetoScenes
-        m_Mode: 3
+      - m_Target: {fileID: 1882793252}
+        m_TargetAssemblyTypeName: ButtonNextScene4, Assembly-CSharp
+        m_MethodName: NextButtonScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
